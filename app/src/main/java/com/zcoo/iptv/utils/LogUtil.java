@@ -4,8 +4,8 @@ import com.zcoo.iptv.config.Config;
 
 /**
  * Author: Supermanzc
- * Projectname: IPTV
- * Packagename: com.zcoo.iptv.utils
+ * Project: IPTV
+ * Package: com.zcoo.iptv.utils
  * Time: 2015/7/14 17:07
  */
 public class LogUtil {
