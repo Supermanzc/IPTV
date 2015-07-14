@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="layy0">0px</dimen>
+    <dimen name="layx0">0px</dimen>
     <dimen name="layx1">2.0px</dimen>
     <dimen name="layx2">4.0px</dimen>
     <dimen name="layx3">6.0px</dimen>
