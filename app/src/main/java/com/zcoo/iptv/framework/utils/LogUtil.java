@@ -1,11 +1,11 @@
-package com.zcoo.iptv.utils;
+package com.zcoo.iptv.framework.utils;
 
-import com.zcoo.iptv.config.Config;
+import com.zcoo.iptv.framework.config.Config;
 
 /**
  * Author: Supermanzc
  * Project: IPTV
- * Package: com.zcoo.iptv.utils
+ * Package: com.zcoo.iptv.framework.utils
  * Time: 2015/7/14 17:07
  */
 public class LogUtil {

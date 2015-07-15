@@ -1,4 +1,4 @@
-package com.zcoo.iptv.utils;
+package com.zcoo.iptv.framework.utils;
 
 import android.app.Activity;
 import android.app.ActivityManager;
