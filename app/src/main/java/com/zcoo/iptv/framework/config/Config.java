@@ -1,9 +1,9 @@
-package com.zcoo.iptv.config;
+package com.zcoo.iptv.framework.config;
 
 /**
  * Author: Supermanzc
  * Project: IPTV
- * Package: com.zcoo.iptv.config
+ * Package: com.zcoo.iptv.framework.config
  * Time: 2015/7/14 17:01
  */
 public class Config {
