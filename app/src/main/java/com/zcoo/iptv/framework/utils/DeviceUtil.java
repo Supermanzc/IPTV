@@ -1,6 +1,8 @@
 package com.zcoo.iptv.framework.utils;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Environment;
@@ -158,5 +160,20 @@ public class DeviceUtil {
         } else {
             return "zh_CN";
         }
+    }
+
+    /**
+     * 判断当前网络的状态的类型
+     * @param context
+     * @return
+     */
+    public static int getEthernetState(Context context){
+        ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = cm.getNetworkInfo(ConnectivityManager.TYPE_ETHERNET);
+        if (null != networkInfo) {
+            int netWorkType = networkInfo.getType();
+            return netWorkType;
+        }
+        return -1;
     }
 }

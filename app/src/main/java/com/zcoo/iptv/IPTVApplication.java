@@ -10,7 +10,7 @@ import android.app.Application;
  */
 public class IPTVApplication extends Application {
 
-    private static IPTVApplication iptvApp;
+    private static IPTVApplication mIptvApp;
 
     @Override
     public void onCreate() {
@@ -19,11 +19,11 @@ public class IPTVApplication extends Application {
 
     }
 
-    private void setApplication(IPTVApplication app){
-        iptvApp = app;
+    private void setApplication(IPTVApplication app) {
+        mIptvApp = app;
     }
 
-    public static IPTVApplication getApplication(){
-        return iptvApp;
+    public static IPTVApplication getApplication() {
+        return mIptvApp;
     }
 }

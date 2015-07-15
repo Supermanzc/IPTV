@@ -255,7 +255,7 @@ public class CommonUtil {
     }
 
     /**
-     * 获取当前网络的状态的类型
+     * 判断当前网络的状态的类型
      * @param context
      * @return
      */
