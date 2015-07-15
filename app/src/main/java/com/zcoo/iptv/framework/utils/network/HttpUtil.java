@@ -33,6 +33,7 @@ public class HttpUtil {
 
         if(CommonUtil.isNetworkAvailable(IPTVApplication.getApplication())){
             String lang = DeviceUtil.getCustomSystemLang();
+            //http://127.0.0.1:8090/home?index=0
             //url路径后面加入语言控制，便于服务端中英文切换
             String doActionUrl = url.indexOf("?") == -1 ? url + "?locale=" + lang : url + "&locale=" + lang;
             HttpUtils httpUtils = new HttpUtils();
