@@ -154,6 +154,11 @@ public class StringUtil {
                 "%02d:%02d", minutes, seconds);
     }
 
+    /**
+     * 时间转换为毫秒
+     * @param time
+     * @return
+     */
     public static int getLongTime(String time) {
         String[] times = time.split(":");
         int milliseconds = 0;
